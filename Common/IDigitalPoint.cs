@@ -1,0 +1,19 @@
+﻿namespace Common
+{
+    /// <summary>
+    /// Interface representing digital point specific values.
+    /// </summary>
+    public interface IDigitalPoint : IPoint
+    {
+        /// <summary>
+        /// Gets or sets the state of the digital point.
+        /// </summary>
+  		DState State { get; set; }
+
+        // IZMENA: Dodajemo AbnormalValue direktno na interfejs
+        /// <summary>
+        /// Gets the value which represents abnormal alarm.
+        /// </summary>
+        ushort AbnormalValue { get; }
+    }
+}

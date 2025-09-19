@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|c:\\users\\milos\\desktop\\faks\\3_godina\\aus\\projekat\\mesalicaprojekat\\dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\configuration\\configreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\configuration\\configreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\iconfigitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\iconfigitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnalogBase.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:57:47.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DigitalBase.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:56:58.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RtuCfg.txt",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\RtuCfg.txt",
+              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\RtuCfg.txt",
+              "RelativeToolTip": "dCom\\RtuCfg.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-19T09:54:04.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\Enums.cs",
+              "RelativeDocumentMoniker": "Common\\Enums.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\Enums.cs",
+              "RelativeToolTip": "Common\\Enums.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:25:25.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigItem.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigItem.cs",
+              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigItem.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigItem.cs",
+              "RelativeToolTip": "dCom\\Configuration\\ConfigItem.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:23:45.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConfigReader.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigReader.cs",
+              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigReader.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigReader.cs",
+              "RelativeToolTip": "dCom\\Configuration\\ConfigReader.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAmwLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:23:27.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAnalogPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IAnalogPoint.cs",
+              "RelativeDocumentMoniker": "Common\\IAnalogPoint.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IAnalogPoint.cs",
+              "RelativeToolTip": "Common\\IAnalogPoint.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:23:08.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IDigitalPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IDigitalPoint.cs",
+              "RelativeDocumentMoniker": "Common\\IDigitalPoint.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IDigitalPoint.cs",
+              "RelativeToolTip": "Common\\IDigitalPoint.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:22:45.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IConfigItem.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IConfigItem.cs",
+              "RelativeDocumentMoniker": "Common\\IConfigItem.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IConfigItem.cs",
+              "RelativeToolTip": "Common\\IConfigItem.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T08:10:44.43Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

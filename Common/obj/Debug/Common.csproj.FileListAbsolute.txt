@@ -1,0 +1,17 @@
+C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\bin\Debug\Common.dll
+C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\bin\Debug\Common.pdb
+C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.dll
+C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.pdb
+C:\Users\Racunar1\Desktop\Ognjen\SCADA\dCom\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\bin\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\bin\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\obj\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\AUS\dCom-radna-verzija\dCom\Common\obj\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\bin\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\bin\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.pdb
