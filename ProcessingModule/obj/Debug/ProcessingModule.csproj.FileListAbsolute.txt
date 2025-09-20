@@ -24,3 +24,12 @@ C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Proces
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\ProcessingModule.dll
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\ProcessingModule.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\bin\Debug\ProcessingModule.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\bin\Debug\ProcessingModule.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\bin\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\bin\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\obj\Debug\ProcessingModule.csproj.AssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\obj\Debug\ProcessingModule.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\obj\Debug\Processi.B4D6C848.Up2Date
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\obj\Debug\ProcessingModule.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\ProcessingModule\obj\Debug\ProcessingModule.pdb

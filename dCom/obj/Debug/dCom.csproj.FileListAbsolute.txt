@@ -86,7 +86,6 @@ C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\bin\Debu
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\bin\Debug\Modbus.pdb
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\bin\Debug\ProcessingModule.pdb
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.csproj.AssemblyReference.cache
-C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.exe.config
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\ControlWindow.g.cs
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\MainWindow.g.cs
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\App.g.cs
@@ -102,3 +101,4 @@ C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debu
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.csproj.Up2Date
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.exe
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\dCom\obj\Debug\dCom.exe.config

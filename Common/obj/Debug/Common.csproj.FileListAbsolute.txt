@@ -15,3 +15,9 @@ C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.dll
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Common\obj\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\bin\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\bin\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\obj\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Common\obj\Debug\Common.pdb

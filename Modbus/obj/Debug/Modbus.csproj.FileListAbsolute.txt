@@ -16,3 +16,12 @@ C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Modbus
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.csproj.Up2Date
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.dll
 C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\dCom-radna-verzija\dCom\Modbus\obj\Debug\Modbus.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\bin\Debug\Modbus.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\bin\Debug\Modbus.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\bin\Debug\Common.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\bin\Debug\Common.pdb
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\obj\Debug\Modbus.csproj.AssemblyReference.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\obj\Debug\Modbus.csproj.CoreCompileInputs.cache
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\obj\Debug\Modbus.csproj.Up2Date
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\obj\Debug\Modbus.dll
+C:\Users\Milos\Desktop\Faks\3_Godina\AUS\Projekat\MesalicaProjekat\Modbus\obj\Debug\Modbus.pdb
