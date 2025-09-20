@@ -227,7 +227,7 @@ namespace ProcessingModule
             {
                 if (disposing)
                 {
-                    // Postavljamo flag da bi se thread ugasio
+                    //Postavljamo flag da bi se thread ugasio
                     disposedValue = true;
                 }
             }
