@@ -38,28 +38,23 @@ namespace ProcessingModule
             IModbusFunction fn = FunctionFactory.CreateModbusFunction(p);
             this.functionExecutor.EnqueueCommand(fn);
         }
-        
+
         /// <inheritdoc />
         public void ExecuteWriteCommand(IConfigItem configItem, ushort transactionId, byte remoteUnitAddress, ushort pointAddress, int value)
         {
             if (configItem.RegistryType == PointType.ANALOG_OUTPUT)
             {
-                ExecuteAnalogCommand(configItem, transactionId, remoteUnitAddress, pointAddress, value);
+                // Za analognu tacku, 'value' je EGU vrednost koju treba konvertovati u raw pre slanja.
+                ushort rawValue = eguConverter.ConvertToRaw(configItem.ScaleFactor, configItem.Deviation, value);
+                ExecuteAnalogCommand(configItem, transactionId, remoteUnitAddress, pointAddress, rawValue);
             }
             else
             {
+                // Za digitalnu tacku, 'value' je vec 0 ili 1.
                 ExecuteDigitalCommand(configItem, transactionId, remoteUnitAddress, pointAddress, value);
             }
         }
 
-        /// <summary>
-        /// Executes a digital write command.
-        /// </summary>
-        /// <param name="configItem">The configuration item.</param>
-        /// <param name="transactionId">The transaction identifier.</param>
-        /// <param name="remoteUnitAddress">The remote unit address.</param>
-        /// <param name="pointAddress">The point address.</param>
-        /// <param name="value">The value.</param>
         private void ExecuteDigitalCommand(IConfigItem configItem, ushort transactionId, byte remoteUnitAddress, ushort pointAddress, int value)
         {
             ModbusWriteCommandParameters p = new ModbusWriteCommandParameters(6, (byte)ModbusFunctionCode.WRITE_SINGLE_COIL, pointAddress, (ushort)value, transactionId, remoteUnitAddress);
@@ -67,26 +62,14 @@ namespace ProcessingModule
             this.functionExecutor.EnqueueCommand(fn);
         }
 
-        /// <summary>
-        /// Executes an analog write command.
-        /// </summary>
-        /// <param name="configItem">The configuration item.</param>
-        /// <param name="transactionId">The transaction identifier.</param>
-        /// <param name="remoteUnitAddress">The remote unit address.</param>
-        /// <param name="pointAddress">The point address.</param>
-        /// <param name="value">The value.</param>
-        private void ExecuteAnalogCommand(IConfigItem configItem, ushort transactionId, byte remoteUnitAddress, ushort pointAddress, int value)
+        // Parametar 'value' je sada ushort (raw vrednost)
+        private void ExecuteAnalogCommand(IConfigItem configItem, ushort transactionId, byte remoteUnitAddress, ushort pointAddress, ushort value)
         {
-            ModbusWriteCommandParameters p = new ModbusWriteCommandParameters(6, (byte)ModbusFunctionCode.WRITE_SINGLE_REGISTER, pointAddress, (ushort)value, transactionId, remoteUnitAddress);
+            ModbusWriteCommandParameters p = new ModbusWriteCommandParameters(6, (byte)ModbusFunctionCode.WRITE_SINGLE_REGISTER, pointAddress, value, transactionId, remoteUnitAddress);
             IModbusFunction fn = FunctionFactory.CreateModbusFunction(p);
             this.functionExecutor.EnqueueCommand(fn);
         }
 
-        /// <summary>
-        /// Gets the modbus function code for the point type.
-        /// </summary>
-        /// <param name="registryType">The register type.</param>
-        /// <returns>The modbus function code.</returns>
         private ModbusFunctionCode? GetReadFunctionCode(PointType registryType)
         {
             switch (registryType)
@@ -100,62 +83,64 @@ namespace ProcessingModule
             }
         }
 
-        /// <summary>
-        /// Method for handling received points.
-        /// </summary>
-        /// <param name="type">The point type.</param>
-        /// <param name="pointAddress">The point address.</param>
-        /// <param name="newValue">The new value.</param>
         private void CommandExecutor_UpdatePointEvent(PointType type, ushort pointAddress, ushort newValue)
         {
-            List<IPoint> points = storage.GetPoints(new List<PointIdentifier>(1) { new PointIdentifier(type, pointAddress) });
-            
+            // Pronalazimo tacku u storage-u (ViewModel-u)
+            List<PointIdentifier> pids = new List<PointIdentifier>(1) { new PointIdentifier(type, pointAddress) };
+            IPoint point = storage.GetPoints(pids).FirstOrDefault();
+
+            if (point == null)
+            {
+                return; // Tačka nije pronađena
+            }
+
             if (type == PointType.ANALOG_INPUT || type == PointType.ANALOG_OUTPUT)
             {
-                ProcessAnalogPoint(points.First() as IAnalogPoint, newValue);
+                ProcessAnalogPoint(point as IAnalogPoint, newValue);
             }
             else
             {
-                ProcessDigitalPoint(points.First() as IDigitalPoint, newValue);
+                ProcessDigitalPoint(point as IDigitalPoint, newValue);
             }
         }
 
-        /// <summary>
-        /// Processes a digital point.
-        /// </summary>
-        /// <param name="point">The digital point</param>
-        /// <param name="newValue">The new value.</param>
         private void ProcessDigitalPoint(IDigitalPoint point, ushort newValue)
         {
             point.RawValue = newValue;
             point.Timestamp = DateTime.Now;
             point.State = (DState)newValue;
-
+            // IZMENA: Pozivamo AlarmProcessor da odredi novi status alarma
+            point.Alarm = alarmProcessor.GetAlarmForDigitalPoint(point);
         }
 
-        /// <summary>
-        /// Processes an analog point
-        /// </summary>
-        /// <param name="point">The analog point.</param>
-        /// <param name="newValue">The new value.</param>
         private void ProcessAnalogPoint(IAnalogPoint point, ushort newValue)
         {
             point.RawValue = newValue;
             point.Timestamp = DateTime.Now;
+            // Pozivamo EGUConverter da izracuna EGU vrednost
+            point.EguValue = eguConverter.ConvertToEGU(point.ScaleFactor, point.Deviation, newValue);
+            // Pozivamo AlarmProcessor da odredi novi status alarma
+            point.Alarm = alarmProcessor.GetAlarmForAnalogPoint(point);
         }
 
         /// <inheritdoc />
         public void InitializePoint(PointType type, ushort pointAddress, ushort defaultValue)
         {
             List<IPoint> points = storage.GetPoints(new List<PointIdentifier>(1) { new PointIdentifier(type, pointAddress) });
+            IPoint point = points.FirstOrDefault();
+
+            if (point == null)
+            {
+                return;
+            }
 
             if (type == PointType.ANALOG_INPUT || type == PointType.ANALOG_OUTPUT)
             {
-                ProcessAnalogPoint(points.First() as IAnalogPoint, defaultValue);
+                ProcessAnalogPoint(point as IAnalogPoint, defaultValue);
             }
             else
             {
-                ProcessDigitalPoint(points.First() as IDigitalPoint, defaultValue);
+                ProcessDigitalPoint(point as IDigitalPoint, defaultValue);
             }
         }
     }
