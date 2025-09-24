@@ -206,14 +206,21 @@ namespace ProcessingModule
             kolicina = allPoints.FirstOrDefault(p => p.ConfigItem.Description == "Kolicina_sastojaka") as IAnalogPoint;
         }
 
+
         private void WriteDigital(IDigitalPoint point, DState state)
         {
-            processingManager.ExecuteWriteCommand(point.ConfigItem, 0, configuration.UnitAddress, (ushort)point.PointId, (int)state);
+            if (point != null)
+            {
+                processingManager.ExecuteWriteCommand(point.ConfigItem, 0, configuration.UnitAddress, point.Address, (int)state);
+            }
         }
 
         private void WriteAnalog(IAnalogPoint point, double value)
         {
-            processingManager.ExecuteWriteCommand(point.ConfigItem, 0, configuration.UnitAddress, (ushort)point.PointId, (int)value);
+            if (point != null)
+            {
+                processingManager.ExecuteWriteCommand(point.ConfigItem, 0, configuration.UnitAddress, point.Address, (int)value);
+            }
         }
 
         #endregion

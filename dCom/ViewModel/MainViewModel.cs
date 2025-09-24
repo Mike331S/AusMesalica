@@ -235,19 +235,26 @@ namespace dCom.ViewModel
             automationTrigger.Dispose();
 		}
 
-		public List<IPoint> GetPoints(List<PointIdentifier> pointIds)
-		{
-			List<IPoint> retVal = new List<IPoint>(pointIds.Count);
-			foreach (var pid in pointIds)
-			{
-				int id = PointIdentifierHelper.GetNewPointId(pid);
-				IPoint p = null;
-				if (pointsCache.TryGetValue(id, out p))
-				{
-					retVal.Add(p);
-				}
-			}
-			return retVal;
-		}
-	}
+
+        public List<IPoint> GetPoints(List<PointIdentifier> pointIds)
+        {
+            // Ovo je neophodno da bi AutomationManager mogao da dobije reference na tacke.
+            if (pointIds == null || pointIds.Count == 0)
+            {
+                return new List<IPoint>(pointsCache.Values);
+            }
+
+            List<IPoint> retVal = new List<IPoint>(pointIds.Count);
+            foreach (var pid in pointIds)
+            {
+                int id = PointIdentifierHelper.GetNewPointId(pid);
+                IPoint p = null;
+                if (pointsCache.TryGetValue(id, out p))
+                {
+                    retVal.Add(p);
+                }
+            }
+            return retVal;
+        }
+    }
 }

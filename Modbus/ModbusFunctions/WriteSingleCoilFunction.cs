@@ -12,16 +12,11 @@ namespace Modbus.ModbusFunctions
     /// </summary>
     public class WriteSingleCoilFunction : ModbusFunction
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="WriteSingleCoilFunction"/> class.
-        /// </summary>
-        /// <param name="commandParameters">The modbus command parameters.</param>
         public WriteSingleCoilFunction(ModbusCommandParameters commandParameters) : base(commandParameters)
         {
             CheckArguments(MethodBase.GetCurrentMethod(), typeof(ModbusWriteCommandParameters));
         }
 
-        /// <inheritdoc />
         public override byte[] PackRequest()
         {
             ModbusWriteCommandParameters mwcp = this.CommandParameters as ModbusWriteCommandParameters;
@@ -33,12 +28,14 @@ namespace Modbus.ModbusFunctions
             request[6] = mwcp.UnitId;
             request[7] = mwcp.FunctionCode;
             Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)mwcp.OutputAddress)), 0, request, 8, 2);
-            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)mwcp.Value)), 0, request, 10, 2);
+
+            // ISPRAVKA: Vrednost za ON mora biti 0xFF00, a za OFF 0x0000
+            ushort valueToSend = (mwcp.Value != 0) ? (ushort)0xFF00 : (ushort)0x0000;
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)valueToSend)), 0, request, 10, 2);
 
             return request;
         }
 
-        /// <inheritdoc />
         public override Dictionary<Tuple<PointType, ushort>, ushort> ParseResponse(byte[] response)
         {
             var retVal = new Dictionary<Tuple<PointType, ushort>, ushort>();
@@ -51,8 +48,11 @@ namespace Modbus.ModbusFunctions
             else
             {
                 ushort address = (ushort)IPAddress.NetworkToHostOrder((short)BitConverter.ToUInt16(response, 8));
-                ushort value = (ushort)IPAddress.NetworkToHostOrder((short)BitConverter.ToUInt16(response, 10));
-                retVal.Add(new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address), value);
+                ushort valueResponse = (ushort)IPAddress.NetworkToHostOrder((short)BitConverter.ToUInt16(response, 10));
+
+                // Vracamo 1 ili 0 da bi nasa aplikacija to razumela
+                ushort normalizedValue = (valueResponse == 0xFF00) ? (ushort)1 : (ushort)0;
+                retVal.Add(new Tuple<PointType, ushort>(PointType.DIGITAL_OUTPUT, address), normalizedValue);
             }
             return retVal;
         }

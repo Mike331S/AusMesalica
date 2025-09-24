@@ -6,11 +6,17 @@ namespace Common
     /// Interface representing a point.
     /// </summary>
     public interface IPoint
-	{
+    {
         /// <summary>
         /// Gets the point identifier.
         /// </summary>
 		int PointId { get; }
+
+        // NOVO: Dodajemo Modbus adresu u osnovni interfejs
+        /// <summary>
+        /// Gets the address of the point.
+        /// </summary>
+        ushort Address { get; }
 
         /// <summary>
         /// Gets or sets the raw value.

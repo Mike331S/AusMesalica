@@ -1,41 +1,113 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\",
+  "WorkspaceRootPath": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|c:\\users\\milos\\desktop\\faks\\3_godina\\aus\\projekat\\dcom-radna-verzija\\dcom\\dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\rtucfg.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dcom\\configuration\\configreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|c:\\users\\milos\\desktop\\faks\\3_godina\\aus\\projekat\\mesalicaprojekat\\modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readholdingregistersfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\modbusfunctions\\readcoilsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\readcoilsfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\writesingleregisterfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\modbusfunctions\\writesinglecoilfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\modbusfunctions\\writesinglecoilfunction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\controlwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\controlwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\connection\\functionexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\functionexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\iconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\modbus\\connection\\tcpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65B26E48-3A6C-4BC4-AF16-F77809B5AFA2}|Modbus\\Modbus.csproj|solutionrelative:modbus\\connection\\tcpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\ipoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\ipoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\configuration\\configreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\configuration\\configreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\common\\iconfigitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\utils\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\utils\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\viewmodel\\pointviewmodels\\analaoginput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\analaoginput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\configuration\\configitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\processingmodule\\automationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\automationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\processingmodule\\acquisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\acquisitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\processingmodule\\processingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\processingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\processingmodule\\alarmprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\alarmprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\processingmodule\\eguconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A61FACB3-147E-4FD9-88C1-A3F226157C23}|ProcessingModule\\ProcessingModule.csproj|solutionrelative:processingmodule\\eguconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\analogbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5697AB8-53AC-4230-9B79-E43A6AA54436}|dCom\\dCom.csproj|solutionrelative:dcom\\viewmodel\\pointviewmodels\\digitalbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\ianalogpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\idigitalpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\iconfigitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\iconfigitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{823D1355-EFD0-481C-A0D9-FDA0C4EA37DF}|Common\\Common.csproj|solutionrelative:common\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,28 +118,279 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AnalogBase.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
-              "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
-              "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "dCom\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\MainWindow.xaml",
+              "RelativeToolTip": "dCom\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T08:42:12.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ControlWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ControlWindow.xaml",
+              "RelativeDocumentMoniker": "dCom\\ControlWindow.xaml",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ControlWindow.xaml",
+              "RelativeToolTip": "dCom\\ControlWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-21T14:01:48.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriteSingleRegisterFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\WriteSingleRegisterFunction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T10:57:47.74Z",
+              "WhenOpened": "2025-09-21T12:55:23.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReadCoilsFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadCoilsFunction.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:20:42.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AutomationManager.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\AutomationManager.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\AutomationManager.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\AutomationManager.cs",
+              "RelativeToolTip": "ProcessingModule\\AutomationManager.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAewNoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:56:14.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Acquisitor.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\Acquisitor.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\Acquisitor.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\Acquisitor.cs",
+              "RelativeToolTip": "ProcessingModule\\Acquisitor.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAYwDcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T14:02:46.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProcessingManager.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\ProcessingManager.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\ProcessingManager.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\ProcessingManager.cs",
+              "RelativeToolTip": "ProcessingModule\\ProcessingManager.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwHkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T11:36:37.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AlarmProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\AlarmProcessor.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\AlarmProcessor.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\AlarmProcessor.cs",
+              "RelativeToolTip": "ProcessingModule\\AlarmProcessor.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T10:13:38.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RtuCfg.txt",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\RtuCfg.txt",
+              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\RtuCfg.txt",
+              "RelativeToolTip": "dCom\\RtuCfg.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-09-19T09:54:04.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReadHoldingRegistersFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\ReadHoldingRegistersFunction.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T09:48:46.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WriteSingleCoilFunction.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
+              "RelativeDocumentMoniker": "Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
+              "RelativeToolTip": "Modbus\\ModbusFunctions\\WriteSingleCoilFunction.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T11:26:53.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FunctionExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\FunctionExecutor.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\FunctionExecutor.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\FunctionExecutor.cs",
+              "RelativeToolTip": "Modbus\\Connection\\FunctionExecutor.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:03:41.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\IConnection.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\IConnection.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\IConnection.cs",
+              "RelativeToolTip": "Modbus\\Connection\\IConnection.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:03:49.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TCPConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\TCPConnection.cs",
+              "RelativeDocumentMoniker": "Modbus\\Connection\\TCPConnection.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Modbus\\Connection\\TCPConnection.cs",
+              "RelativeToolTip": "Modbus\\Connection\\TCPConnection.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:03:50.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "dCom\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "dCom\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:02:03.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AnalaogInput.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalaogInput.cs",
+              "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\AnalaogInput.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalaogInput.cs",
+              "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\AnalaogInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:02:19.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Utils\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "dCom\\Utils\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Utils\\RelayCommand.cs",
+              "RelativeToolTip": "dCom\\Utils\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:02:23.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EGUConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\EGUConverter.cs",
+              "RelativeDocumentMoniker": "ProcessingModule\\EGUConverter.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\ProcessingModule\\EGUConverter.cs",
+              "RelativeToolTip": "ProcessingModule\\EGUConverter.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T10:11:12.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConfigReader.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigReader.cs",
+              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigReader.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigReader.cs",
+              "RelativeToolTip": "dCom\\Configuration\\ConfigReader.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAA8wLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:23:27.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IPoint.cs",
+              "RelativeDocumentMoniker": "Common\\IPoint.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IPoint.cs",
+              "RelativeToolTip": "Common\\IPoint.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA3wCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:56:23.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AnalogBase.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\AnalogBase.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T10:57:47.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfigItem.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigItem.cs",
+              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigItem.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\Configuration\\ConfigItem.cs",
+              "RelativeToolTip": "dCom\\Configuration\\ConfigItem.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:23:45.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "DigitalBase.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
               "RelativeDocumentMoniker": "dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
               "RelativeToolTip": "dCom\\ViewModel\\PointViewModels\\DigitalBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -75,23 +398,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RtuCfg.txt",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
-              "RelativeDocumentMoniker": "dCom\\RtuCfg.txt",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\RtuCfg.txt",
-              "RelativeToolTip": "dCom\\RtuCfg.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-19T09:54:04.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\Enums.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\Enums.cs",
               "RelativeDocumentMoniker": "Common\\Enums.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\Enums.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\Enums.cs",
               "RelativeToolTip": "Common\\Enums.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAmwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,35 +410,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConfigItem.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\Configuration\\ConfigItem.cs",
-              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigItem.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\Configuration\\ConfigItem.cs",
-              "RelativeToolTip": "dCom\\Configuration\\ConfigItem.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAYwFEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:23:45.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ConfigReader.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\Configuration\\ConfigReader.cs",
-              "RelativeDocumentMoniker": "dCom\\Configuration\\ConfigReader.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\dCom\\Configuration\\ConfigReader.cs",
-              "RelativeToolTip": "dCom\\Configuration\\ConfigReader.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAmwLwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T09:23:27.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "IAnalogPoint.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IAnalogPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IAnalogPoint.cs",
               "RelativeDocumentMoniker": "Common\\IAnalogPoint.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IAnalogPoint.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IAnalogPoint.cs",
               "RelativeToolTip": "Common\\IAnalogPoint.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +422,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 24,
               "Title": "IDigitalPoint.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IDigitalPoint.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IDigitalPoint.cs",
               "RelativeDocumentMoniker": "Common\\IDigitalPoint.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IDigitalPoint.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IDigitalPoint.cs",
               "RelativeToolTip": "Common\\IDigitalPoint.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,11 +434,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 25,
               "Title": "IConfigItem.cs",
-              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IConfigItem.cs",
+              "DocumentMoniker": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IConfigItem.cs",
               "RelativeDocumentMoniker": "Common\\IConfigItem.cs",
-              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\dCom-radna-verzija\\dCom\\Common\\IConfigItem.cs",
+              "ToolTip": "C:\\Users\\Milos\\Desktop\\Faks\\3_Godina\\AUS\\Projekat\\MesalicaProjekat\\Common\\IConfigItem.cs",
               "RelativeToolTip": "Common\\IConfigItem.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAowGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
